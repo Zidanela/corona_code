@@ -1,5 +1,6 @@
 -- ADDED PHYSICS ENGINE
 local physics = require("physics")
+physics.setDrawMode( "hybrid" )
 physics.start()
  
 ----------------------------------------------------------------------------------------

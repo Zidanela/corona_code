@@ -87,6 +87,7 @@ function emitterLib:createEmitter(radiusRange, thickness, particleDuration, init
 				particle:removeSelf()
 				particle = nil
 			end})
+			print(nvx..' '..nvy..' '..self.endAlpha..' '..self.initAlpha)
 		end
 	end 
 	

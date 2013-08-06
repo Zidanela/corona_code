@@ -1,4 +1,4 @@
-local physics = require("physics") ; physics.start() ; physics.setGravity( 0.0,9.8 ) ; physics.setDrawMode( "normal" )
+local physics = require("physics") ; physics.start() ; physics.setGravity( 0.0,9.8 ) ; physics.setDrawMode( "debug" )
 physics.setPositionIterations( 16 ) ; physics.setVelocityIterations( 6 )
 display.setStatusBar( display.HiddenStatusBar )
 
